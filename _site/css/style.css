@@ -415,16 +415,17 @@ header {
   text-transform: uppercase;
   font-style: oblique !important;
   color: black;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9);
 }
 
-/* line 233, ../sass/style.scss */
-footer {
-  margin-top: 130px !important;
+/* line 235, ../sass/style.scss */
+#YOLK, .post {
+  text-shadow: #fff 1px 1px 2px;
 }
 
 /* line 239, ../sass/style.scss */
-.post {
-  color: black;
+footer {
+  margin-top: 130px !important;
 }
 
 @font-face {
@@ -435,7 +436,7 @@ footer {
   font-style: normal;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 #postmain {
   width: 600px;
   height: 600px;
@@ -450,14 +451,14 @@ footer {
   *display: inline;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 #postcontent {
   display: block;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 #wordflash {
   position: absolute;
   top: 0;
@@ -470,14 +471,21 @@ footer {
   font-family: "Inconsolata", monospace;
 }
 
-/* line 279, ../sass/style.scss */
-#yolk a, a:link, a:visited {
-  color: white !important;
+/* line 282, ../sass/style.scss */
+#YOLK {
+  color: black;
+  font-size: 34px;
+  font-family: "League Gothic", monospace;
+  text-decoration: none;
+  letter-spacing: .2em;
+  text-align: center;
+  padding-left: .2em;
 }
 
-/* line 283, ../sass/style.scss */
-#yolk a:hover {
-  color: #222 !important;
+/* line 292, ../sass/style.scss */
+#YOLK:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-shadow: #000 2px 2px 2px;
 }
 
 /* ==|== media queries ======================================================
@@ -495,7 +503,7 @@ footer {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 319, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -507,20 +515,20 @@ footer {
   direction: ltr;
 }
 
-/* line 320, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 323, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 326, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -533,7 +541,7 @@ footer {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 329, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -544,24 +552,24 @@ footer {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 332, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 335, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 337, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -571,7 +579,7 @@ footer {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 347, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -581,45 +589,45 @@ footer {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 348, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 349, ../sass/style.scss */
+  /* line 359, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 350, ../sass/style.scss */
+  /* line 360, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 351, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 352, ../sass/style.scss */
+  /* line 362, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 353, ../sass/style.scss */
+  /* line 363, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 354, ../sass/style.scss */
+  /* line 364, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 355, ../sass/style.scss */
+  /* line 365, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -628,13 +636,13 @@ footer {
     margin: 0.5cm;
 }
 
-  /* line 357, ../sass/style.scss */
+  /* line 367, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 358, ../sass/style.scss */
+  /* line 368, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }

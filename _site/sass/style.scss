@@ -228,6 +228,12 @@ header {
     text-transform: uppercase;
     font-style: oblique !important;
     color: rgb(0,0,0);
+    -webkit-text-stroke: 2px rgba(255,255,255,0.9);
+
+}
+
+#YOLK, .post{
+    text-shadow: #fff 1px 1px 2px;
 }
 
 footer {
@@ -236,9 +242,6 @@ footer {
 
 }
 
-.post{
-    color: rgb(0,0,0);
-}
 
 @font-face {
     font-family: 'LeagueGothic';
@@ -276,12 +279,19 @@ footer {
     font-family:"Inconsolata", monospace;
 }
 
-#yolk a, a:link, a:visited {
-    color:white !important;
+#YOLK{
+    color:black;
+    font-size:34px;
+    font-family:"League Gothic", monospace;
+    text-decoration:none;
+    letter-spacing:.2em;
+    text-align:center;
+    padding-left:.2em;
 }
 
-#yolk a:hover {
-    color:#222 !important;
+#YOLK:hover {
+    color:rgba(255,255,255,0.5) !important;
+    text-shadow: #000 2px 2px 2px;
 }
 
 
