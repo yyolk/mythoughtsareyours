@@ -1,0 +1,7 @@
+safe:        false
+auto:        false
+base-url:    /
+
+source: .
+destination: _site
+plugins:     _plugins
