@@ -215,7 +215,7 @@ td { vertical-align: top; }
 /** Import blueprint styles **/
 
 
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import "compass/css3/text-shadow";
 
 body{
     background-color:white;
@@ -233,7 +233,7 @@ header {
 }
 
 #YOLK, .post{
-    text-shadow: #fff 1px 1px 2px;
+    @include single-text-shadow(rgba(white, 0.9), 2px, 2px, 2px);
 }
 
 footer {

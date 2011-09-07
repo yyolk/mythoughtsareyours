@@ -3,13 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
-
-/* THANKS */
-  Names (& URL):
+  YOLK: Joseph Chiocchi
+  Site: http://yolk.cc
+  Twitter: yyolk
+  Location: Chicago, IL
 
 /* SITE */
   Standards: HTML5, CSS3
