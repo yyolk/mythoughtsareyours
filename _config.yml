@@ -2,6 +2,6 @@ safe:        false
 auto:        false
 base-url:    /
 
-source: .
+source:      .
 destination: _site
 plugins:     _plugins

@@ -7,10 +7,10 @@ $(function(){
         var hue = 'rgb(' + colr + ',' + colr + ',' + colr + ')';
             var ihue = 'rgb(' + icolr + ',' + icolr + ',' + icolr +  ')';
             $('body').animate( { backgroundColor: hue }, 3000);
-            $('header').animate( { color: ihue } , 3000);
-            $('.post').animate( { color: ihue }, 3000);
-            $('#YOLK').animate({color: ihue, borderBottomColor: ihue}, 3000);
-            setTimeout("",1000);
+            //$('header').animate( { color: ihue } , 3000);
+            $('#YOLK, .post, header').animate( { color: ihue }, 3000);
+            $('#YOLK, .post, header').animate( {textShadow: 'rgba('+colr+','+colr+','+colr+',0.8) 0 0 14px;'}, 3000);
+            setTimeout(function(){},1000);
             spectrum();
             }
             

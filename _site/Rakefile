@@ -42,6 +42,11 @@ namespace :compass do
   task :compile => [:clean] do
     system "compass compile"
   end
+
+  desc 'Compile and minify css'
+  task :minify => [:clean] do
+      system "compass compile -c prod_config.rb"
+  end
   
 end
 
