@@ -1,5 +1,22 @@
 {% include header.html %}
 
+<style type="text/css" media="screen">
+    #back{
+        font-size:20px;
+        position:fixed;
+        left:2px;
+        bottom:2px;
+        padding:10px;
+        background-color:white;
+        color:black;
+    }
+    #back:hover{
+        cursor:pointer;
+        background-color:black;
+        color:white;
+    }
+
+</style>
 <body class='bp'>
 
     <div id='ccontent' class='hidden'>
@@ -14,6 +31,10 @@
       </div>
   </div>
 
+  <div id="back" onclick="history.go(-1);">
+     &larr; 
+  </div>
+  
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
