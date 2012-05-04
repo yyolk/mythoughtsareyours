@@ -11,8 +11,6 @@ var text = $("#ccontent").text();
 var countmax;
 var c=0;
 
-wordr();
-
 function wordr(){
     splt = text.split(" ");
     countmax = splt.length;
@@ -21,4 +19,9 @@ function wordr(){
     if (c>countmax)
         c=0;
     setTimeout("wordr()", 250);
+
+
 }
+
+
+wordr();
