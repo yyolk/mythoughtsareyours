@@ -1,5 +1,0 @@
----
-layout: post
-title: "UNSETTLED DOMINANCE"
----
-Unknown scholars and entrepreneurs agree that in order for the manifestation of a new reality there is a small requirement for a re-initialization upon the current stack of horrors. When the sky falls and the world crumbles are we expected to be another role player in someone else's dream? Are we inherently nothing more than a subconscious, and outer-universe zeitgeist of consciousness that is beyond our understanding. We may just be numb and stupid all the while we are conscious tendrils of a higher being that does not exist. Considering the theory of multiple universes as well as string theory one may get the idea that the universe is hard deterministic but I am not sure that this is right. We may be the only universe that has been able to achieve sentience but aren't we no more than a small temporal life span on this small planet in this small galaxy within our universe which is a part of our "Ultraverse", the theoretical plane where multiple universes coincide.  Will we never be able to look out of our universe? Will we ever be able to look into a black hole?  
