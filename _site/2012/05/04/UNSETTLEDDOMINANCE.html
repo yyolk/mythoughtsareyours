@@ -40,79 +40,49 @@
 
 
 
-<body class='bp two-col'>
+<style type="text/css" media="screen">
+    #back{
+        font-size:20px;
+        position:fixed;
+        left:2px;
+        bottom:2px;
+        padding:10px;
+        background-color:white;
+        color:black;
+    }
+    #back:hover{
+        cursor:pointer;
+        background-color:black;
+        color:white;
+    }
 
-  <div id="container">
-    <header>
-        My Thoughts Are Yours
-    </header>
-    <div id="main" role="main">
-        
-        <div class="post" onClick="location.href='/2012/05/04/UNSETTLEDDOMINANCE.html';">
-             UNSETTLED DOMINANCE
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/05/04/TrappedInAClutchOfObfuscatedOptimism.html';">
-             Trapped in a clutch of obfuscated optimism
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/10/17/UnsentMessage20111011.html';">
-             Unsent Message - 20111011
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/12/ThinkOfLife.html';">
-             Think of Life
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/12/SoDamnGentle.html';">
-             So damn gentle with everything.
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/05/InOrderforRealitytoChange.html';">
-             In Order For Reality to Change
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/WhatIfForSomeReason.html';">
-             What if, for some reason?
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/SolarPlexus.html';">
-             Solar Plexus
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/RealityAndMyGrip.html';">
-             Reality, and my grip becoming lose.
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/InSilenceForever.html';">
-             In Silence, Forever
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/AsWouldAllTheyBeDamned.html';">
-             As would all they be damned
-         </div>
-        
+</style>
+<body class='bp'>
+
+    <div id='ccontent' class='hidden'>
+        <p>Unknown scholars and entrepreneurs agree that in order for the manifestation of a new reality there is a small requirement for a re-initialization upon the current stack of horrors. When the sky falls and the world crumbles are we expected to be another role player in someone else&#8217;s dream? Are we inherently nothing more than a subconscious, and outer-universe zeitgeist of consciousness that is beyond our understanding. We may just be numb and stupid all the while we are conscious tendrils of a higher being that does not exist. Considering the theory of multiple universes as well as string theory one may get the idea that the universe is hard deterministic but I am not sure that this is right. We may be the only universe that has been able to achieve sentience but aren&#8217;t we no more than a small temporal life span on this small planet in this small galaxy within our universe which is a part of our &#8220;Ultraverse&#8221;, the theoretical plane where multiple universes coincide. Will we never be able to look out of our universe? Will we ever be able to look into a black hole?</p>
     </div>
-    <footer>
-    <div id="YOLK">YOLK</div> 
-        <!--
-        <a id="YOLK" href="http://yolk.cc">YOLK</a>
-        -->
-    </footer>
-  </div> <!--! end of #container -->
+    
+  <div id="postmain" role="main">
+      <div id="postcontent">
+          <div id="wordflash">
 
+          </div>
+      </div>
+  </div>
 
+  <div id="back" onclick="history.go(-1);">
+     &larr; 
+  </div>
+  
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 
-  <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
-  <!-- end scripts -->
+  <script defer src="/js/wordflash.js"></script>
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
@@ -133,5 +103,4 @@
 </body>
 
 </html>
-
 
