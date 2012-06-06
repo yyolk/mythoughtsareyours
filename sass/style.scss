@@ -223,7 +223,7 @@ body{
 }
 
 header {
-    font-size: 85px !important;
+    font-size: 60px !important;
     font-family: 'LeagueGothic', monospace !important;
     text-transform: uppercase;
     font-style: oblique !important;
@@ -306,15 +306,32 @@ footer {
    These override the primary ('mobile first') styles
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 320px){
+    body.two-col{
+        width:100%;
+    }
+}
 
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
+
+header{
+    font-size:20px !important;
+}
+
+.post{
+    font-size:18px !important;
+}
 
 }
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
+    
 
+    header{
+        font-size:60px !important;
+    }
 }
 
 

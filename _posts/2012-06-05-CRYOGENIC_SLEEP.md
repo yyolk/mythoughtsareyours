@@ -1,0 +1,5 @@
+---
+layout: post
+title: "I WOKE UP FROM A CRYOGENIC SLEEP"
+---
+I woke up from a cryogenic sleep. The world was in disarray. The entire population of living creatures were wiped out by an alien race. The alien race coated the world in this deadly energy. They almost killed everything on planet earth. People knew what was going to happen so they threw 1 male and 1 female into this shelter. They were responsible for seeding the entire population of the human race once more. I didn’t find out what they looked like until there were several children. The new human race was supposed to be seeded by an ugly man and woman. Luckily however they were still groups of people that survived. These included a group of old ladies that were trying to fix the internet. And a group of people I knew and liked. I was afraid that the internet was going to be dominated by the guy from “Big Guy and Rusty” (The guy that turned into a very big brain and ate people’s thoughts.) But instead of being completely organic he was mostly machine. (With a very cool color scheme and material of black and white.)
