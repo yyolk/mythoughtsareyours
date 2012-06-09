@@ -1,0 +1,106 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>My Thoughts Are Yours</title>
+  <meta name="description" content="MY THOUGHTS ARE YOURS">
+  <meta name="author" content="Joseph Chiocchi">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 8]>
+      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  
+  
+  
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+       Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
+       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+
+
+<style type="text/css" media="screen">
+    #back{
+        font-size:20px;
+        position:fixed;
+        left:2px;
+        bottom:2px;
+        padding:10px;
+        background-color:white;
+        color:black;
+    }
+    #back:hover{
+        cursor:pointer;
+        background-color:black;
+        color:white;
+    }
+
+</style>
+<body class='bp'>
+
+    <div id='ccontent' class='hidden'>
+        <p>Reality is a hard thing to comprehend. Take into account new findings in the bleeding-edge of physics; you may become even more confused. All things obey the laws of physics except when they become very small. At that scale it seems as though our simple act of viewing an electron determines it’s place in space and time. Almost as if our consciousness’ stream disrupted that electron’s wave while it appears briefly in our universe or our reality. The multi-verse theory states that there are an infinite amount of universes all contained within one ultra-verse. This is a hard thing for a single person to comprehend. In the facet of human experience and how we actually exist on this earth, how will we ever hope to understand something more complicated than ourselves, the realm of psychology and neurology seems to be self-contradicting; as if anyone in the human race would be able to deconstruct a brain and learn how it works. An inherent paradox – how can a being determine how itself can function? Would it not require a larger, more complex brain to understand the way the brains in us humans work now? And what if that “larger-brained” being needs to have brain surgery, would they also need an even larger-brained being to understand their brain? How would any of the world’s problems be solved? (If Atlas holds the world on his shoulders, whom holds Atlas?) The problem is recursive and replicating. The problems seem too big for a simple mind, or a single individual to tackle. Yet it is happening, the world is wonderful today. There has been more progress in the last 100 years than there has been for the entire history of the human race. Progress is becoming exponentially faster and more advanced.These problems are being solved through collaboration, many heads tackling the same problem. Through collaboration, large problems are tackled and eventually solved, or resolved in some matter.Research groups are the prime example for an artist uneasy about any sort of collaboration. It’s as if they still believe that being an artist still means going recluse for 5 years and coming out with some body of work. It is not only unnecessary, but also irresponsible to be stagnant. There is no reason any longer to say, “I don’t know how to do this.” Our minds are built to be scared of a simple problem of asking for help because we no longer make a distinction to any other problem in the world.Asking for help is not a bear that wants to eat you, even though the lizard part of your brain may believe that to be the case, which in turn creates problems such as procrastination or Sophophobia which is the fear of learning. By sharing my current work, future projects and the process in which I create an abstract feeling that a work should “feel” like. The end result is subject to change with time. That is the nature of research, continuously changing the nature of the “process” to accomplish an end result – or for an artist, work. As I believe technology is a technique in art, I would like to know where my work stands as a tool as communication of expression. Is it aesthetically pleasing or does the work seem cold, calculated, and mathematical.</p>
+    </div>
+    
+  <div id="postmain" role="main">
+      <div id="postcontent">
+          <div id="wordflash">
+
+          </div>
+      </div>
+  </div>
+
+  <div id="back" onclick="history.go(-1);">
+     &larr; 
+  </div>
+  
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <script defer src="/js/wordflash.js"></script>
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-5567846-19'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+
+</html>
+
