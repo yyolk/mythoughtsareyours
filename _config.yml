@@ -1,7 +1,9 @@
 safe:        false
 auto:        false
-base-url:    /
-
+baseurl:    /
+url: http://mythoughtsareyours.yolk.cc
 source:      .
 destination: _site
 plugins:     _plugins
+server: true
+server_port: 8080
