@@ -4,13 +4,26 @@
   <title>MY THOUGHTS ARE YOURS</title>
   <link href="http://mythoughtsareyours.yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://mythoughtsareyours.yolk.cc/atom.xml"/>
-  <updated>2012-06-24T15:45:57-05:00</updated>
+  <updated>2012-08-27T20:38:00-05:00</updated>
   <id>http://mythoughtsareyours.yolk.cc</id>
   <author>
     <name>YOLK</name>
     <email>mythoughtsareyours@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://mythoughtsareyours.yolk.cc/2012/08/27/Urge_to_coalesce</id>
+    <link type="text/html" rel="alternate" href="http://mythoughtsareyours.yolk.cc/2012/08/27/Urge_to_coalesce.html"/>
+    <title>Urge to coalesce</title>
+    <published>2012-08-27T00:00:00-05:00</published>
+    <updated>2012-08-27T00:00:00-05:00</updated>
+    <author>
+      <name>YOLK</name>
+      <uri>http://mythoughtsareyours.yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;My urge to coalesce the meaningless and mundane is overpowering. My strength depleted, it has left me no choice, but to elicit its power upon me again. Allow me to escape the pain that still remains, overbearing.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <id>http://mythoughtsareyours.yolk.cc/2012/06/24/LAST-CHANCE</id>

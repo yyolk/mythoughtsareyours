@@ -40,99 +40,49 @@
 
 
 
-<body class='bp two-col'>
+<style type="text/css" media="screen">
+    #back{
+        font-size:20px;
+        position:fixed;
+        left:2px;
+        bottom:2px;
+        padding:10px;
+        background-color:white;
+        color:black;
+    }
+    #back:hover{
+        cursor:pointer;
+        background-color:black;
+        color:white;
+    }
 
-  <div id="container">
-    <header>
-        My Thoughts Are Yours
-    </header>
-    <div id="main" role="main">
-        
-        <div class="post" onClick="location.href='/2012/08/27/Urge_to_coalesce.html';">
-             Urge to coalesce
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/06/24/LAST-CHANCE.html';">
-             LAST CHANCE
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/06/09/A-MATTER-OF-SPACE-AND-TIME.html';">
-             A matter of space and time
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/06/05/CRYOGENIC_SLEEP.html';">
-             I WOKE UP FROM A CRYOGENIC SLEEP
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/05/12/ImpercepitbleDisasters.html';">
-             Imperceptible disasters of the cosmic dilemma.
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/05/04/UNSETTLEDDOMINANCE.html';">
-             UNSETTLED DOMINANCE
-         </div>
-        
-        <div class="post" onClick="location.href='/2012/05/04/TrappedInAClutchOfObfuscatedOptimism.html';">
-             Trapped in a clutch of obfuscated optimism
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/10/17/UnsentMessage20111011.html';">
-             Unsent Message - 20111011
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/12/ThinkOfLife.html';">
-             Think of Life
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/12/SoDamnGentle.html';">
-             So damn gentle with everything.
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/05/InOrderforRealitytoChange.html';">
-             In Order For Reality to Change
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/WhatIfForSomeReason.html';">
-             What if, for some reason?
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/SolarPlexus.html';">
-             Solar Plexus
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/RealityAndMyGrip.html';">
-             Reality, and my grip becoming lose.
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/InSilenceForever.html';">
-             In Silence, Forever
-         </div>
-        
-        <div class="post" onClick="location.href='/2011/09/04/AsWouldAllTheyBeDamned.html';">
-             As would all they be damned
-         </div>
-        
+</style>
+<body class='bp'>
+
+    <div id='ccontent' class='hidden'>
+        <p>My urge to coalesce the meaningless and mundane is overpowering. My strength depleted, it has left me no choice, but to elicit its power upon me again. Allow me to escape the pain that still remains, overbearing.</p>
     </div>
-    <footer>
-    <div id="YOLK"><a href="http://yolk.cc">YOLK</a></div> 
-        <!--
-        <a id="YOLK" href="http://yolk.cc">YOLK</a>
-        -->
-    </footer>
-  </div> <!--! end of #container -->
+    
+  <div id="postmain" role="main">
+      <div id="postcontent">
+          <div id="wordflash">
 
+          </div>
+      </div>
+  </div>
 
+  <div id="back" onclick="location.href='/';">
+     &larr; 
+  </div>
+  
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 
-  <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
-  <!-- end scripts -->
+  <script defer src="/js/wordflash.js"></script>
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
@@ -153,5 +103,4 @@
 </body>
 
 </html>
-
 
