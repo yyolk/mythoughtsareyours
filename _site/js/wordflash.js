@@ -14,14 +14,15 @@ var c=0;
 function wordr(){
     splt = text.split(" ");
     countmax = splt.length;
-      $("#wordflash").text(splt[c]);
         if(c%2===0){
-          $('body').css('background-color','white');
-          $('body').css('color','black');
+          $('body, #back').css('background-color','white');
+          $('body, #back').css('color','black');
         }else{
-            $('body').css('background-color','black');
-            $('body').css('color','white');
-        }
+            $('body, #back').css('background-color','black');
+            $('body, #back').css('color','white');
+        }      
+    $("#wordflash").text(splt[c]);
+
     c=c+1;
     if (c>countmax)
         c=0;
