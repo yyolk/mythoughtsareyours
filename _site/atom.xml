@@ -4,13 +4,26 @@
   <title>MY THOUGHTS ARE YOURS</title>
   <link href="http://mythoughtsareyours.yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://mythoughtsareyours.yolk.cc/atom.xml"/>
-  <updated>2012-12-10T23:10:15-06:00</updated>
+  <updated>2013-05-14T18:28:01-05:00</updated>
   <id>http://mythoughtsareyours.yolk.cc</id>
   <author>
     <name>YOLK</name>
     <email>mythoughtsareyours@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://mythoughtsareyours.yolk.cc/2013/05/14/FALSE_MEMORY</id>
+    <link type="text/html" rel="alternate" href="http://mythoughtsareyours.yolk.cc/2013/05/14/FALSE_MEMORY.html"/>
+    <title>FALSE MEMORY</title>
+    <published>2013-05-14T00:00:00-05:00</published>
+    <updated>2013-05-14T00:00:00-05:00</updated>
+    <author>
+      <name>YOLK</name>
+      <uri>http://mythoughtsareyours.yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;During my 18th year on this earth the culmination of my years of deep depression had finally taken it’s toll. The decision was made to end my own life. My attempt would have succeeded if it was not intervened by a stranger. A few weeks in intensive in patient therapy and years of different medications later, I have become a different entity all together. I am very lucky to have not succeeded as I believe my life is more fulfilled now than it ever was before.&lt;/p&gt;</content>
+  </entry>
   
   <entry>
     <id>http://mythoughtsareyours.yolk.cc/2012/08/27/Urge_to_coalesce</id>

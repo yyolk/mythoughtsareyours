@@ -419,7 +419,7 @@ header {
 
 /* line 233, ../sass/style.scss */
 #YOLK, .post, header {
-  text-shadow: rgba(255, 255, 255, 0.9) 0 0 14px;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.9);
 }
 
 /* line 237, ../sass/style.scss */
@@ -439,14 +439,11 @@ footer {
 #postmain {
   width: 600px;
   height: 600px;
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
+  display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-}
-/* line 7, ../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
-#postmain {
+  zoom: 1;
   *display: inline;
 }
 

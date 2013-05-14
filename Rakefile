@@ -17,6 +17,12 @@ namespace :jekyll do
 
 end
 
+namespace :make do
+  desc 'Generate a new post'
+  task :post do
+    system "./create-work.sh"
+  end
+end
 
 #namespace :deploy do
 #  desc 'Deploy to production'
