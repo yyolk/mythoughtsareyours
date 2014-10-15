@@ -217,9 +217,10 @@ td { vertical-align: top; }
 
 @import "compass/css3/text-shadow";
 
-body{
+body.bp{
     background-color:white;
     color:rgb(0,0,0);
+    overflow: hidden;
 }
 
 header {
@@ -268,11 +269,25 @@ footer {
     vertical-align:middle;
 }
 
+%stretched {
+  $stretch-color: #4c6b99;
+  // border: 3px solid $stretch-color;
+  // @include border-radius(8px);
+  display: block;
+  // background-color: darken($stretch-color, 30%);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  // padding: 0.5em;
+  top: 0;
+}
+
 #wordflash{
-    @extend .stretched;
+    @extend %stretched;
     @include stretch;
     vertical-align:middle;
-    margin-top:40%;
+    top:20%;
     font-size:55px;
     font-family:"Inconsolata", monospace;
 }
