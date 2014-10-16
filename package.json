@@ -1,19 +1,12 @@
 {
-  "name": "express-mvc",
+  "name": "NOTHING BETWEEN US",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
-    "start": "app.js"
-  },
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
   "dependencies": {
-    "express": "~3.3.4",
-    "jade": "~0.34.0",
-    "mongoose": "~3.6.14",
-    "keen.io": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
