@@ -216,8 +216,30 @@ td { vertical-align: top; }
 
 
 @import "compass/css3/text-shadow";
+@import "compass/css3/animation";
+
+
+@include keyframes(bgrot) {
+  0%, 100% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+}
+
+@include keyframes(rotcol) {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+}
+
 
 body.bp{
+    @include animation(bgrot 3s infinite);
     background-color:white;
     color:rgb(0,0,0);
     overflow: hidden;
@@ -231,9 +253,6 @@ header {
     color: rgb(0,0,0);
 }
 
-#YOLK, .post, header {
-    @include single-text-shadow(rgba(white, 0.9), 0, 0, 14px);
-}
 
 footer {
 
@@ -283,6 +302,8 @@ footer {
   top: 0;
 }
 
+
+
 #wordflash{
     @extend %stretched;
     @include stretch;
@@ -313,6 +334,10 @@ footer {
 
 
 
+#YOLK, .post, header {
+  @include animation(rotcol 3s infinite);
+  @include single-text-shadow(rgba(white, 0.9), 0, 0, 14px);
+}
 
 
 

@@ -402,14 +402,65 @@ td {
    Author: Joseph Chiocchi
    ========================================================================== */
 /** Import blueprint styles **/
-/* line 220, ../sass/style.scss */
+@-moz-keyframes bgrot {
+  0%, 100% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+}
+@-webkit-keyframes bgrot {
+  0%, 100% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+}
+@keyframes bgrot {
+  0%, 100% {
+    background-color: black;
+  }
+  50% {
+    background-color: white;
+  }
+}
+@-moz-keyframes rotcol {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+}
+@-webkit-keyframes rotcol {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+}
+@keyframes rotcol {
+  0%, 100% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+}
+/* line 241, ../sass/style.scss */
 body.bp {
+  -moz-animation: bgrot 3s infinite;
+  -webkit-animation: bgrot 3s infinite;
+  animation: bgrot 3s infinite;
   background-color: white;
   color: black;
   overflow: hidden;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 header {
   font-size: 60px !important;
   font-family: 'LeagueGothic', monospace !important;
@@ -418,12 +469,7 @@ header {
   color: black;
 }
 
-/* line 234, ../sass/style.scss */
-#YOLK, .post, header {
-  text-shadow: 0 0 14px rgba(255, 255, 255, 0.9);
-}
-
-/* line 238, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 footer {
   margin-top: 130px !important;
 }
@@ -435,7 +481,7 @@ footer {
   font-weight: normal;
   font-style: normal;
 }
-/* line 260, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 #postmain {
   width: 600px;
   height: 600px;
@@ -446,14 +492,14 @@ footer {
   *display: inline;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 #postcontent {
   display: block;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 #wordflash {
   display: block;
   color: white;
@@ -463,7 +509,7 @@ footer {
   top: 0;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 #wordflash {
   position: absolute;
   top: 0;
@@ -476,7 +522,7 @@ footer {
   font-family: "Inconsolata", monospace;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 #YOLK {
   color: black;
   font-size: 24px;
@@ -487,10 +533,18 @@ footer {
   padding-left: .2em;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 #YOLK:hover {
   color: rgba(255, 255, 255, 0.5) !important;
   text-shadow: #000 2px 2px 2px;
+}
+
+/* line 337, ../sass/style.scss */
+#YOLK, .post, header {
+  -moz-animation: rotcol 3s infinite;
+  -webkit-animation: rotcol 3s infinite;
+  animation: rotcol 3s infinite;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.9);
 }
 
 /* ==|== media queries ======================================================
@@ -499,26 +553,26 @@ footer {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 320px) {
-  /* line 325, ../sass/style.scss */
+  /* line 350, ../sass/style.scss */
   body.two-col {
     width: 100%;
   }
 }
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
-  /* line 333, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   header {
     font-size: 20px !important;
   }
 
-  /* line 337, ../sass/style.scss */
+  /* line 362, ../sass/style.scss */
   .post {
     font-size: 18px !important;
   }
 }
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
-  /* line 347, ../sass/style.scss */
+  /* line 372, ../sass/style.scss */
   header {
     font-size: 60px !important;
   }
@@ -527,7 +581,7 @@ footer {
    Please define your styles before this section.
    ========================================================================== */
 /* For image replacement */
-/* line 359, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .ir {
   display: block;
   border: 0;
@@ -539,20 +593,20 @@ footer {
   direction: ltr;
 }
 
-/* line 360, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 363, ../sass/style.scss */
+/* line 388, ../sass/style.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 366, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -565,7 +619,7 @@ footer {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 369, ../sass/style.scss */
+/* line 394, ../sass/style.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -576,24 +630,24 @@ footer {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 372, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 375, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 376, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 377, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -603,7 +657,7 @@ footer {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 387, ../sass/style.scss */
+  /* line 412, ../sass/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -613,45 +667,45 @@ footer {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 388, ../sass/style.scss */
+  /* line 413, ../sass/style.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 389, ../sass/style.scss */
+  /* line 414, ../sass/style.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 390, ../sass/style.scss */
+  /* line 415, ../sass/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 391, ../sass/style.scss */
+  /* line 416, ../sass/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 392, ../sass/style.scss */
+  /* line 417, ../sass/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 393, ../sass/style.scss */
+  /* line 418, ../sass/style.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 394, ../sass/style.scss */
+  /* line 419, ../sass/style.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 395, ../sass/style.scss */
+  /* line 420, ../sass/style.scss */
   img {
     max-width: 100% !important;
   }
@@ -659,13 +713,13 @@ footer {
   @page {
     margin: 0.5cm;
   }
-  /* line 397, ../sass/style.scss */
+  /* line 422, ../sass/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 398, ../sass/style.scss */
+  /* line 423, ../sass/style.scss */
   h2, h3 {
     page-break-after: avoid;
   }

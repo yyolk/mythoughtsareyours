@@ -83,5 +83,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   compass-blueprint
   jekyll
